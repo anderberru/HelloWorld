@@ -49,7 +49,7 @@ public class HelloWorld extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JLabel lblHelloWorld = new JLabel(m.getTreductions("eu"));
+		JLabel lblHelloWorld = new JLabel(m.getTreductions("es"));
 		lblHelloWorld.setFont(new Font("Lucida Grande", Font.PLAIN, 30));
 		lblHelloWorld.setBounds(115, 93, 225, 44);
 		contentPane.add(lblHelloWorld);
